@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(147, 241, 241);
+}
+
+.Notas{
+    display: grid;
+    grid-template-columns: auto auto auto auto;   
+    padding: 1.5rem;
+}
+
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: rgb(71, 169, 250);
+    padding: 0.5rem;
+}
+
+#editar{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0.5rem;
+    background-color: rgb(71, 169, 250);
+}
+
+#modify{
+    width: 100%;
+}
+
+.words{
+    overflow-wrap: break-word;
+    width: 100%;
+    padding: 1.0rem;
+    background-color: white;
+}
+
+.botao-nav{
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.botao-icon{
+    overflow:hidden;
+    width: 40px;
+    height: 30px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.note{
+    margin-bottom: auto;
+    width: 300px;
+    border: 2px solid rgb(71, 169, 250);
+    box-shadow: 0 0 3px rgb(133, 128, 128);
+}
+
+img{
+    max-width: 100%;
+}

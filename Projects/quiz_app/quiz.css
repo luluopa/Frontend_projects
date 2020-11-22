@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+.quiz{
+    background-color: thistle;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgb(0,0,0.2);
+    width: 600px;
+}
+
+.quiz-pad{
+    padding: 2rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.botao{
+    background-color: purple;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 1rem;
+    display: block;
+}

@@ -1,0 +1,19 @@
+body{
+    background-image: url('land_back.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+.h1_time{
+    text-align: center;
+    margin-top: 200px;
+}
+
+.contador{
+    text-align: center;
+}
+
+span{
+    font-family: 'Goldman', cursive;
+    font-size: xx-large;
+}

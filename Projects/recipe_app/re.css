@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: #7F7FD5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.botao{
+    border: none;
+    background-color: rgb(240, 232, 232) ;
+    width: 50px;
+}
+
+.botao img{
+    width: 100%;
+}
+
+.Search{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    text-align: center;
+    padding: 1.3rem;
+}
+
+.Amostras{
+    background-color: #b498c7;
+}
+
+.Main{
+    box-shadow: 0 0 10px rgb(75, 69, 69);
+    background-color: rgb(240, 232, 232);
+    width: 400px;
+}
+
+.list{
+    object-fit: cover;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 2rem;
+}
+
+.refer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0.5rem;
+    background-color: lavender;
+    font-family: 'Oswald', sans-serif;
+}
+
+.Show_selected{
+    object-fit: cover;
+    padding: 2rem;
+}
+
+.Show_selected img{
+    width: 100%;
+}
+
+.shadow{
+    box-shadow: 0 0 10px black;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.list li{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    object-fit: cover;
+    width: 100px;
+}
+
+.list li img{
+    object-fit: cover;
+    border: 2px solid rgb(209, 198, 198);
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+#center{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    width: 100%;
+}
+
+#close{
+    border: 2px solid black;
+    background-color: rgb(240, 232, 232);
+    border-radius: 5px;
+}
+
+#nav{
+    padding: 0.5rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #b498c7;;
+    width: 100%;
+}
+
+.love{
+    border: none;
+    display: flex;
+    justify-content: center;
+    width: 30px;
+    height: 20px;
+    background-color: lavender;
+}
+
+.love img{
+    width: 100%;
+    height: 100%;
+}
+
+.description{
+    font-family: 'Oswald', sans-serif;
+    box-shadow: 0 0 10px rgb(75, 69, 69);
+    background-color: rgb(240, 232, 232);
+    display: none;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 450px;
+    position: absolute;
+    font-size: 120%;
+}
+
+
+
+
+

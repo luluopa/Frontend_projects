@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+
+.jumbotron{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Window{
+    border-radius: 15px;
+    box-shadow: 0 0 10px black;
+    border: 100px solid rgb(51, 50, 112);
+}
+
+.perdeu{
+    padding: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao-sim{
+    margin-top: 10px;
+    width: 100%;
+    background-color: rgb(168, 110, 223);
+}
+
+#canvas{
+    border: 2px solid black;
+}
