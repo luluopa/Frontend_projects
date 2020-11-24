@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+}
+
+#input-user{
+    padding: 0.3rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+
+    background-color: rgb(237, 241, 236);
+    box-shadow: 0 0 10px black;
+    border-radius: 5px;
+
+    width: 300px;
+    height: 350px;
+    padding: 1.0rem;
+    gap: 5px;
+    font-size: large;
+}
+
+.result{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    gap: 2px;
+}
+
+.result button{
+    width: 100%;
+}
+
+.central{
+    display: flex;
+
+    height: 100%;
+    width: 100%;
+}
+
+.put-result button{
+    height: 100%;
+}
+
+.button-number{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+input{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+button{
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: large;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.result button{
+    background-color: rgb(72, 128, 233);
+}
+table button{
+    background-color: rgb(180, 180, 178);
+}
+.put-result button{
+    background-color: rgb(221, 221, 220);
+}
+
+.table{
+    width: 100%;
+    height: 100%;
+}
+
+.put-result{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100px;
+    gap: 2px;
+}
